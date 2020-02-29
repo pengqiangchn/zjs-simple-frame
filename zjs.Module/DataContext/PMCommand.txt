@@ -1,0 +1,10 @@
+//查看帮助
+get-help Enable-Migration -detailed
+
+//新增迁移
+Add-Migration -Name InitialCreate -Verbose
+//Add-Migration -Name InitialCreate -Project "Infrastructure.Data"  -Verbose
+
+//更新数据库
+Update-Database -Verbose
+//Update-Database  -Project "Infrastructure.Data" -Verbose

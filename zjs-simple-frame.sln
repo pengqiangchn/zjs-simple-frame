@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zjs.WebApi", "zjs.WebApi\zjs.WebApi.csproj", "{C5FC1DD7-D6F0-4B70-89D9-CF1E3CB6BA4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zjs.SeedWork", "zjs.SeedWork\zjs.SeedWork.csproj", "{9140D42F-8661-490C-ABC0-9232269FF10B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zjs.Application", "zjs.Application\zjs.Application.csproj", "{84712B92-90B0-4026-903A-62F792739E29}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zjs.Module", "zjs.Module\zjs.Module.csproj", "{618BF56F-2537-49A1-9D10-6859CBF84E56}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C5FC1DD7-D6F0-4B70-89D9-CF1E3CB6BA4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5FC1DD7-D6F0-4B70-89D9-CF1E3CB6BA4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5FC1DD7-D6F0-4B70-89D9-CF1E3CB6BA4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5FC1DD7-D6F0-4B70-89D9-CF1E3CB6BA4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9140D42F-8661-490C-ABC0-9232269FF10B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9140D42F-8661-490C-ABC0-9232269FF10B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9140D42F-8661-490C-ABC0-9232269FF10B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9140D42F-8661-490C-ABC0-9232269FF10B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84712B92-90B0-4026-903A-62F792739E29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84712B92-90B0-4026-903A-62F792739E29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84712B92-90B0-4026-903A-62F792739E29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84712B92-90B0-4026-903A-62F792739E29}.Release|Any CPU.Build.0 = Release|Any CPU
+		{618BF56F-2537-49A1-9D10-6859CBF84E56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{618BF56F-2537-49A1-9D10-6859CBF84E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{618BF56F-2537-49A1-9D10-6859CBF84E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{618BF56F-2537-49A1-9D10-6859CBF84E56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ED2EA8D1-CCBC-425D-9076-9EF14A1FA7EC}
+	EndGlobalSection
+EndGlobal
