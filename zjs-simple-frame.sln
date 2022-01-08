@@ -1,15 +1,20 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29709.97
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zjs.WebApi", "zjs.WebApi\zjs.WebApi.csproj", "{C5FC1DD7-D6F0-4B70-89D9-CF1E3CB6BA4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zjs.SeedWork", "zjs.SeedWork\zjs.SeedWork.csproj", "{9140D42F-8661-490C-ABC0-9232269FF10B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zjs.SeedWork", "zjs.SeedWork\zjs.SeedWork.csproj", "{9140D42F-8661-490C-ABC0-9232269FF10B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zjs.Application", "zjs.Application\zjs.Application.csproj", "{84712B92-90B0-4026-903A-62F792739E29}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zjs.Application", "zjs.Application\zjs.Application.csproj", "{84712B92-90B0-4026-903A-62F792739E29}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "zjs.Module", "zjs.Module\zjs.Module.csproj", "{618BF56F-2537-49A1-9D10-6859CBF84E56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{ACBC3876-DC51-4ECF-B7D7-DEA1804E6196}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

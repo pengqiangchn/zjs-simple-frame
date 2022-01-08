@@ -32,8 +32,8 @@ namespace zjs_simple_frame
             {
                 //是否显示EF生成的语句
                 options.EnableSensitiveDataLogging();
-                options.UseMySql(Configuration.GetConnectionString("MyContext"));
-
+                //options.UseMySql(Configuration.GetConnectionString("MyContext"), null);
+                options.UseSqlServer(Configuration.GetConnectionString("MyContext"));
             });
 
             services.AddAutoMapper(Assembly.Load("zjs.Application"));
